@@ -5,3 +5,5 @@ Combine with ngrok to open a tunnel to your localhost, and then set your BigComm
 
 Example:
 https://abcd123.ngrok.io/webhooks
+
+Before running the app, run *npm install* in the directory in your terminal.
