@@ -6,8 +6,8 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 app.post("/webhooks", (req, res) => {
+  console.log(`RECEIVED HOOK FROM ${req.body.scope}`);
   console.log(req.body);
-  
   res.status(200).send("Webhook received");
 });
 
