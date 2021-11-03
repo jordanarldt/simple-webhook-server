@@ -13,7 +13,7 @@ app.post("/webhooks", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Webhooks testing app. Set webhook destination URLs to the /webhook path");
+  res.send("Webhooks testing app. Set webhook destination URLs to the /webhooks path");
 });
 
 var listener = app.listen(process.env.PORT || 8080, function() {
